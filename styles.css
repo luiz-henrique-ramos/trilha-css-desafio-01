@@ -1,0 +1,271 @@
+
+*{
+    background-color: black;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.banner{
+    Width: 1440px;
+    Height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    background-image: linear-gradient(to bottom, rgba(1, 1, 2, 0), rgba(51, 168, 219, 0.15), rgba(51, 168, 219, 0)), url("assets/images/banner.png");
+}
+
+.banner-content{
+    position: relative;
+    Width: 510px;
+    Height: 393px;
+    Top: 56px;
+    Left: 465px;
+    Gap: 16px;   
+    background-color: transparent;
+}
+
+.logo{
+    position: absolute;
+    Width: 268px;
+    Height: 268px;
+    Left: 121px;
+    border-radius: 50% 50%;
+    background-color: #00000033;
+}
+
+.logo img{
+    position: absolute;
+    Width: 248px;
+    Height: 214px;
+    Top: 27px;
+    Left: 10px;
+    background-color: transparent;
+}
+
+.banner-content h1{
+    position: absolute;
+    Width: 434px;
+    Height: 47px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    background-color: transparent;
+    top: 250px;
+    left:50%;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, #33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+}
+
+.banner-content p {
+    position: absolute;
+    top: 83%;
+    left: 9px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.banner-content button{
+    position: relative;
+    Width: 326px;
+    Height: 57px;
+    Top: 420px;
+    left: 50%;
+    transform: translateX(-50%);
+    Border: 2px;
+    Padding: 19px, 91px, 19px, 91px;
+    Gap: 31px;
+    background-color: transparent;
+    color: #31A8DD;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 5px;
+    background-color: transparent;
+    border: solid 2px;
+    border-image: linear-gradient(to right, #3BA1CD, #1572B7);
+    border-image-slice: 1;
+    border-image-width: 1;
+}
+
+#course-content{
+    position: absolute;
+    Width: 792px;
+    Height: 325px;
+    Top: 723px;
+    Left: 324px;
+    Gap: 24px;
+}
+
+#course-content h2{
+    position: absolute;
+    top:auto;
+    left:50%;
+    transform: translateX(-50%);
+    margin: 0%;
+    Width: 477px;
+    Height: 38px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 6.08px;
+    white-space: nowrap;
+}
+
+#course-content p{
+    position: absolute;
+    top: 50px;
+    Width: 792px;
+    Height: 38px;
+    color:#FFFFFF;
+    font-weight:400;
+    Size: 16px;
+    Line-height: 18.78px;
+    text-align: Center;
+}
+
+.module{
+    position: relative;
+    Width: 535px;
+    Height: 51px;
+    border-radius: 57px;
+    margin: 20px;
+    top: 105px;
+    left:50%;
+    transform: translateX(-50%);
+    Border: 1px;
+    Gap: 10px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    box-shadow: inset -2px 6px 4px 0 rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-weight: 400; 
+    font-size: 16px;
+    text-align: Center;
+    line-height: 50px;
+}
+
+.module span{
+    color: #33A8DB;
+    background-color: transparent;
+}
+
+#transform-world{
+    position: absolute;
+    background-size: cover;
+    background-image: url("assets/images/woman-code.png");
+    Width: 1440px;
+    Height: 363px;
+    Top: 1138px;
+    Border: 1px 1px 1px 0px;
+    background-position: 50% 42%;
+}
+
+#transform-world p{
+    Width: 244px;
+    Height: 141px;
+    top: 20%;
+    left: 198px;
+    position: absolute;
+    color: #FFFFFF;
+    text-shadow: 3px 2px #33A8DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 46.96px;
+    font-weight: 900;
+    text-transform: lowercase;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#professional-challenges h2{
+    position: absolute;
+    Width: 746px;
+    Height: 76px;
+    text-transform: uppercase;
+    Top: 1577px;
+    Left: 347px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 5px;
+    color: #33A8DB;
+    text-align: center;
+    white-space: normal;
+
+}
+
+#professional-challenges img {
+    position: absolute;
+    width: 659px;
+    height: 429px;
+    top: 1685px;
+    left: 390px;
+}
+
+#professional-challenges p{
+    position: absolute;
+    Width: 792px;
+    Height: 76px;
+    Top: 2154px;
+    Left: 324px;
+    font-weight: 400;
+    Size: 16px;
+    Line-height: 18.78px;
+    text-align: Center;
+    color:#FFFFFF;
+}
+
+footer {
+    position: absolute;
+    Width: 1440px;
+    Height: 170px;
+    Top: 2321px;
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(to bottom,rgba(51, 169, 219, 0) , rgba(51, 169, 219, 0.1), rgba(51, 169, 219, 0.1));
+}
+
+.dio-logo{
+    position: absolute;
+    Width: 310px;
+    Height: 44px;
+    Top: 59px;
+    Left: 565px;
+    background-color: transparent;
+}
+
+footer p{
+    position: absolute;
+    Width: 259px;
+    Height: 19px;
+    Top: 113px;
+    Left: 591px;
+    font-weight: 400;
+    Size: 16px;
+    line-height: 18.78px;
+    text-align: Center;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+footer a{
+    font-weight: 700;
+    Size: 16px;
+    Line-height: 18.78px;
+    text-align: Center;
+    color: #33A8DB;
+    text-decoration-line: none;
+    background-color: transparent;
+}
